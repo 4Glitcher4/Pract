@@ -31,8 +31,8 @@
 <?php if($user_id): ?>
   <h1></h1>
   <div id="grid">
-    <?php foreach ($data as $photo): ?>
-      <?= (new Photos\Photo($photo["Image"], $photo["Text"]))->get_html() ?>
+  <?php foreach ($data as $photo): ?>
+      <?= (new Photos\Photo($photo["Id"], $photo["Image"], $photo["Text"]))->get_html() ?>
     <?php endforeach; ?>
     </div>
 <?php else: ?>

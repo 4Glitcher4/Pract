@@ -1,6 +1,6 @@
 <header>
       <div class="popup">
-        <a href="./first.php">Main Page</a>
+        <a href="./index.php">Main Page</a>
         <?php if ($user_id) : ?>
             <a id="show_add_photo" href="#">Photo</a>
         <?php endif; ?>
