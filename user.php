@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="./media.css" />
     <title>Project 21</title>
 </head>
-<body>
+<body> 
 <?php include "./header.php" ?>
 <?php if($user_id): ?>
   <h1></h1>
