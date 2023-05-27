@@ -1,0 +1,15 @@
+{
+    "name": "user/task22",
+    "authors": [
+        {
+            "name": "4Glitcher4",
+            "email": "n.black@gosu.kz"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Photos\\": ""
+        }
+    }
+}
